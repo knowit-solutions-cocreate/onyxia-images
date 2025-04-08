@@ -15,4 +15,4 @@ RUN curl -L https://github.com/duckdb/duckdb/releases/download/v1.2.1/duckdb_cli
 
 RUN duckdb --version
 
-RUN duckdb -ui
+CMD ["duckdb", "-ui"]
